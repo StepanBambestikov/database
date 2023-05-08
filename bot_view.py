@@ -76,7 +76,7 @@ def make_period_question_markup():
 
 
 def start_bot():
-    bot = telebot.TeleBot('5890057766:AAGBHJivBDeAZ6RkznqqP0JAEsaCtEYtt1s')
+    bot = telebot.TeleBot('My_telegram_bot_token')
     gemeral_markup = make_general_markup()
     ratting_markup = make_ratting_markup()
     period_markup = make_period_question_markup()
